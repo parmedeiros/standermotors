@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="contato.css">
+    <link rel="shortcut icon" href="logo-stander.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/cedba56956.js" crossorigin="anonymous"></script>
+    <title>A Empresa</title>
+</head>
+<body>
+    <!--Início da Navbar-->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar">
+      <div class="navbar-brand">
+          <img src="logo-stander.jpg" alt="" class="navbar-logo">
+          <span class="navbar-title">Stander Motors Automóveis</span>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-list">
+          <li><a href="main.html">Home</a></li>
+          <li><a href="estoque.html">Estoque</a></li>
+          <li><a href="local.html">Local</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="empresa.html">Sobre Nós</a></li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Procurar por Modelos ou Marcas" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+    </form>
+      </div>
+    </div>
+</nav>
+</nav>
+      </div>
+    </div>
+  </nav> 
+    <!--Fim da Navbar-->
+    <h1>Sobre a Empresa</h1>
+    <div class="sobre_empresa_container">
+      <div class="sobre_empresa_texto">
+          <p>
+              A Stander Motors Auto é uma empresa especializada no setor automotivo, conhecida por sua excelência em serviços e produtos. Com um compromisso sólido com a qualidade e a satisfação do cliente, a Stander Motors oferece uma ampla gama de soluções, desde a venda de veículos novos e usados até serviços de manutenção e reparo.
+              <p>
+               A empresa destaca-se por seu atendimento personalizado e pela equipe de profissionais altamente qualificados, que garantem um serviço eficiente e transparente. Além disso, a Stander Motors investe constantemente em tecnologia e inovação para proporcionar as melhores experiências e soluções para seus clientes. Há mais de 20 anos no mercado, hoje a Empresa possui diversas filiais espalhadas ao redor do Brasil e do Mundo. 
+              </p>
+              <p>
+                Nossos valores incluem a responsabilidade, honestidade, integridade, confiança e compromisso com excelência para satisfação de você, nosso cliente.
+                Seja para adquirir um veículo de alta qualidade ou para manter o seu carro em perfeitas condições, a Stander Motors Auto é a escolha ideal para quem busca confiança e competência no mercado automotivo.
+              </p>
+          </p>
+      </div>
+      <div class="sobre_empresa_img">
+          <img src="img_cars/supercar-showroom.webp" alt="Showroom de Carros">
+      </div>
+  </div>
+  
+  <div class="atendimento">
+      <h4>Atendimento</h4>
+      <p>De segunda a sexta feira das 08:00 as 18:00</p>
+      <p>Telefone para contato: (34) 3099-6074</p>
+      <p>Localização: Avenida Faria Pereira 388, - Centro - Patrocínio /MG</p>
+      <p>E-mail CEO: pedroarm@standermotors.com.br</p>
+  </div>
+
+  
+  <style>
+  .sobre_empresa_container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 100%;
+      gap: 20px;
+  }
+  
+  .sobre_empresa_texto {
+      flex: 1; 
+      font-size: 18px;
+      text-align: left;
+  }
+  
+  .sobre_empresa_texto p {
+      margin: 0 auto;
+      margin-top: 20px;
+      margin-left: 30px;
+
+  }
+  
+  .sobre_empresa_img {
+      flex: 1; 
+      max-width: 50%; 
+  }
+  
+  .sobre_empresa_img img {
+      width: 100%;
+      height: auto; 
+  }
+  
+  .atendimento {
+      margin-top: 20px;
+      margin-left: 30px;
+  }
+  
+  @media (max-width: 768px) {
+      .sobre_empresa_container {
+          flex-direction: column; 
+          text-align: center;
+      }
+  
+      .sobre_empresa_text, .sobre_empresa_img {
+          max-width: 100%; 
+      }
+  
+      .sobre_empresa_img img {
+          max-width: 100%; 
+      }
+  }
+  </style>
+<footer>
+  &copy - Stander Motors Auto - SMA. All rights reserved, 2024.
+</footer>
+</html>

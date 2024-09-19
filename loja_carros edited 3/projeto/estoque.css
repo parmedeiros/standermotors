@@ -1,0 +1,224 @@
+/* Normalização */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.col-lg-3,
+.col-sm-4,
+.col-xs-12 {
+    flex: 1;
+    max-width: 23%;
+    min-width: 280px;
+    margin-bottom: 20px;
+}
+
+.box-carro-vitrine {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.box-carro-vitrine:hover {
+    transform: scale(1.05);
+}
+
+.card-image {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.titulo {
+    padding: 15px;
+    text-align: center;
+}
+
+.titulo h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.center-info {
+    font-size: 14px;
+    color: #666;
+}
+
+.font-preco9 {
+    font-weight: bold;
+    color: #333;
+}
+
+.orange-tx {
+    color: #000000;
+}
+
+.sidebar_menu{
+ width: 240px;
+ height: 100vh;
+ padding-bottom: 10px;   
+ position: fixed;
+ margin-right: 20px;
+ border-bottom-right-radius: 2px;
+ overflow: auto;
+ left: 0;
+ top: 80px;
+ overflow-y: auto;
+ border-right: 2px;
+ padding-top: 20px;
+}
+
+.sidebar_titulo{
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+    font-weight: bolder;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.menu ul, li{
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 150px;
+    border-radius: 2px;
+    padding: 2px 2px 2px 2px;
+    margin-left: 10px;
+
+}
+.nome_marca{
+    text-align: left;
+    margin-left: 30px;
+}
+
+.menu ul{
+    list-style: none;
+    margin-left: 30px;
+}
+
+.sidebar_menu ul{
+    margin-right: 20px;
+}
+
+.sidebar_menu ul li{
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 150px;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.preco {
+    margin-top: 20px;
+}
+
+.preco div {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.preco input[type="text"] {
+    width: 80px; /* Ajuste a largura do input */
+    padding: 2px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #555;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.menu a{
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+li{
+    color: rgb(0, 0, 0);
+}
+
+.tipo_blindagem{
+    margin-left: 30px;
+}
+
+.tipo_transmissao{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.ano_carro{
+    margin-left: 30px;
+    text-align: left;
+}
+.carros{
+    margin-left: 30px;
+}
+
+.titulo_transmissao{
+    font-size: 16px; 
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.tipo_transmissao input[type="radio"] {
+    margin-right: 5px;
+    transform: scale(1.2); /* Aumenta o tamanho do botão de rádio */
+}
+.tipo_blindagem {
+    margin-top: 20px;
+}
+
+.titulo_blindagem {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.tipo_blindagem label {
+    margin-right: 5px;
+}
+
+.tipo_blindagem input[type="radio"] {
+    margin-right: 5px;
+    transform: scale(1.2); /* Aumenta o tamanho do botão de rádio */
+}
